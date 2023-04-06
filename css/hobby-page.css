@@ -1,0 +1,114 @@
+.intro-container {
+	width: 50%;
+  	height: auto;
+  	padding: 0;
+  	margin: 100px auto 0 auto;
+
+  	align-items: center;
+  	justify-content: center;
+}
+
+.body-container {
+    width: 50%;
+  	height: auto;
+  	padding: 0;
+  	margin: 100px auto 0 auto;
+
+  	align-items: center;
+  	justify-content: center;
+}
+
+.body-title {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 45px;
+	color: white;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	padding: 20px;
+	text-align: center;
+}
+
+.intro-img {
+	width: 80%;
+	height: 450px;
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 100px;
+
+	background-image: url("../img/dmitry-popovichev-night-screenshot.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.intro-img:hover {
+	width: 80%;
+	height: 450px;
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 100px;
+    background-color: black;
+
+	background-image: url("../img/dmitry-popovichev-day-screenshot.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 20 center;
+    transition: all ease-in-out 100ms;
+}
+
+.text-container {
+	width: 66%;
+	height: auto;
+	padding-top: 50px;
+	align-self: center;
+    margin: auto;
+}
+
+.folio-container {
+    --spacer: 3rem;
+    display: grid;
+    gap: var(--spacer);
+    gap: var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+
+    padding: 0 var(--spacer) var(--spacer);
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.child {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--spacer);
+    padding: var(--size-3);
+    background: var(--surface-3);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-6);
+}
+
+.child > img {
+    inline-size: 100%;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+}
+
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--spacer);
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
+
+.temp-spacer {
+	width: 80%;
+	height: 200px;
+	margin: 50px;
+	background-color: rgba(26, 182, 209, 0.5);
+}
+.temp-div {
+    background-color: rgba(26, 182, 209, 0.5);
+}

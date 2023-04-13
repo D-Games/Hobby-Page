@@ -12,7 +12,7 @@
     width: 50%;
   	height: auto;
   	padding: 0;
-  	margin: 100px auto 0 auto;
+  	margin: 50px auto 0 auto;
 
   	align-items: center;
   	justify-content: center;
@@ -41,6 +41,23 @@
 	background-position: center;
 }
 
+.img-container {
+	width: 80%;
+	height: 450px;
+	margin: auto;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.iframe-container {
+	display: flex;
+	align-self: center;
+  	justify-content: center;
+	aspect-ratio: 16/9;
+}
+
 .intro-img:hover {
 	width: 80%;
 	height: 450px;
@@ -57,25 +74,35 @@
 }
 
 .text-container {
-	width: 66%;
+	width: 72%;
 	height: auto;
-	padding-top: 50px;
 	align-self: center;
     margin: auto;
 }
 
+.video-container {
+	display: flex;
+	align-self: center;
+  	justify-content: center;
+	aspect-ratio: 16/9;
+}
+
+ul li {
+	display: list-item;
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
 .folio-container {
-    --spacer: 3rem;
+    width: 1100px;
+	--spacer: 3rem;
     display: grid;
     gap: var(--spacer);
-    gap: var(--spacer);
     grid-auto-flow: column;
-    grid-auto-columns: 21%;
-
-    padding: 0 var(--spacer) var(--spacer);
-
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
+    grid-auto-columns: 33%;
+	/*margin-left: 15%;*/
+	align-self: center;
+    margin: auto;
 }
 
 .child {

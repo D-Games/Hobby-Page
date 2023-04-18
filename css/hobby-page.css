@@ -115,8 +115,8 @@ ul li {
     box-shadow: var(--shadow-6);
 }
 
-.child > img {
-    inline-size: 100%;
+.child-img {
+	inline-size: 100%;
     aspect-ratio: 9/16;
     object-fit: cover;
 }

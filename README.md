@@ -40,3 +40,5 @@ As a brief summary, debugging mostly consisted of finding a problem, googling th
 Stack Exchange became my best friend when it comes to debugging but while many solutions didn't exactly fix my problems, they gave me an understanding of how features in html work and pointed me in the right direction. For example, I was getting a gap on the right-hand side after adding a floated div, I quickly learned that floats were not created for divs in the first place but were soon adopted when people found out that they could clear the float on any elements above or below the floated one.
 
 There were a fair few times where I just needed to go back and forth, trying to figure out what was interfering or causing the issues I was having. I didn't find that I had to use the console much yet or any form of debug.logs or breakpoints, it was just a matter of understanding what the problem is and testing until it worked.
+
+

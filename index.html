@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Dmitry Popovichev - Hobby Page</title>
+	<title>Dmitry Popovichev - Home</title>
 	<link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/hobby-page.css">
@@ -14,33 +14,36 @@
   </head>
   <body>
 
-    <div class="datetime">
-      <p><span class="date" id="date-time"></span></p>
-    </div>
-    <header class="main-hder">
-      <div class="navigation" style="position: relative; left: 450px;">
-        <nav class="nav-home"><p>Home</p></nav>
-        <nav class="nav-hobbypage"><p>Hobby Page</p></nav>
-        <nav class="nav-contact"><p>Contact</p></nav>
+    <div class="header-container" style="flex-direction: column;">
+      <div class="inner-header">
+
+          <div class="logo-container">
+              <img style="width: 200px;" src="img/Logo.png" alt="">
+          </div>
+
+          <ul class="navigation">
+              <a href="https://d-games.github.io/Website-Project/"><li>Home</li></a>
+              <a href="https://d-games.github.io/Project-Gallery/"><li>Project Gallery</li></a>
+              <a href="https://d-games.github.io/Movie-Data/"><li>Movie Data</li></a>
+              <a href="https://d-games.github.io/hobbypage/"><li>Hobby Page</li></a>
+              <a href="contant.html"><li>Contact</li></a>
+          </ul>
       </div>
-    </header>
-
-    <div class="hder-img-container">
-      <div class="welcome-txt">Welcome Everyone</div>
-    </div>
-
-    
+  </div>
 
     <div class="intro-container" style="position: relative; top: -80px;">
-
+      <div class="spacer"></div>
       <div><p class="body-title">Game Development and Virtual Reality</p></div>
+      <div class="spacer"></div>
       <div class="intro-img"></div>
       <div class="spacer"></div>
       <div class="text-container">
-        <p>The purpose of this blog is to share a bit about my hobby of game development, I will share the three main projects I have done over the past three years, some of the hurdles and problems I had to face and where I’m looking to in the future. I’ve added a small list below containing the names of the three.</p>
+      <div class="spacer"></div>
+      <p>The purpose of this blog is to share a bit about my hobby of game development, I will share the three main projects I have done over the past three years, some of the hurdles and problems I had to face and where I’m looking to in the future. I’ve added a small list below containing the names of the three.</p>
       </div>
 
       <div class="spacer"></div>
+      
 
       <div class="text-container">
         <ul>
@@ -72,39 +75,47 @@
         <p>Enjoying my time nevertheless, me and the programmer who soon became friends, set on to try create our own game in our free time. Our first attempt was Virion – Prototype which can be found on itch.io following that link. The game was made in Unreal Engine 4 where the player plays as a virus trying to infect it’s host. It was an RTS style game that was going to be super difficult to beat, since in real life most viruses don’t tend to survive. The game became a prototype of a game since we came to realise after about a year and a half that we over-scoped for just to two of us (plus two friends that helped here and there). We did what we could, got the game to a playable state and released it to the world and learnt as much as we could before moving onto the next project.</p>
       </div>
       <div class="spacer"></div>
+      <div class="spacer"></div>
       <div class="iframe-container">
         <iframe width="960" src="https://www.youtube.com/embed/DRPM_idhfUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
+      <div class="spacer"></div>
       <div class="spacer"></div>
       <div class="text-container">
         <p>A little less to talk about for the second project, we wanted to create a VR game but again over scoped a little bit but definitely did a lot better and learnt from many of our previous mistakes. This time it only took 6 months to realise that this was not a feasible project while also using Unity as our engine, a much better fit for us. You can visit my ArtStation page for the project here, Arctic Horror, to see some of the progression and creation of the game.</p>
       </div>
       <div class="spacer"></div>
+      <div class="spacer"></div>
       <div class="video-container">
         <video src="video/Power Objective - 1080 Meme.mp4" width="1280" height="720" controls></video>
       </div>
+      <div class="spacer"></div>
       <div class="spacer"></div>
       <div class="text-container">
         <p>Lastly, the 3rd and current game, Clearing Space, a small casual idle clicker-esk mobile game currently in development for Android, with potential release for IOS in the future. In this game the player controls a spaceship that can mine debris located around Earth to bring back to the station and upgrade the ship or station itself. We scoped right down and decided to try our hands at developing a mobile game, less assets, less code (kinda), less work, much more manageable for just the two of us. Development is going well, in just 6 months we have almost created a minimal viable product and are well on our way to releasing the first version of the game in a couple of months (could already be released when you’re reading this). Because of the progress we have made we have had to learn much more that we did on the previous projects, such as UI design, audio, in-game economies and much more.</p>
       </div>
       <div class="spacer"></div>
+      <div class="spacer"></div>
       <div class="img-container">
         <img src="img/Station and Ship With Debris.jpg" alt="A stylised spacship next to a spacestation with debris next to both">
       </div>
+
       <div class="spacer"></div>
       <div class="text-container">
         <p>Doing all 3 projects has taught me a lot such as working with other developers and making sure we are all on the same page, we had a go at an agile development style, I practiced good design documentation and communication along with everything that comes with game development. I will most likely continue my hobby even if I move to a career in software development since it’s still something I enjoy doing in my free time when I’m not gaming, going out with friends or spending time with my partner but I would like to return to VR since this is where my true interests lie.</p>
       </div>
     </div>
     <div class="spacer"></div>
+    <div class="spacer"></div>
 
     <footer class="footer">
       <div class="social-container">
-        <nav class="linkedin-icon"></nav>
-        <nav class="artstation-icon"></nav>
-        <nav class="facebook-icon"></nav>
-        <nav class="instagram-icon"></nav>
-        <nav class="twitter-icon"></nav>
+        <a class="github-icon" href="https://github.com/D-Games" target="_blank"></a>
+        <a class="linkedin-icon" href="https://www.linkedin.com/in/dmitry-popovichev/" target="_blank"></a>
+        <a class="artstation-icon" href="https://dmitryp6.artstation.com/" target="_blank"></a>
+        <a class="facebook-icon" href="https://www.facebook.com/gaming/DarkSchematics" target="_blank"></a>
+        <a class="instagram-icon" href="https://www.instagram.com/darkschematic/" target="_blank"></a>
+        <a class="twitter-icon" href="https://twitter.com/DarkSchematics" target="_blank"></a>
       </div>
     </footer>
 
